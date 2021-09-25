@@ -1,0 +1,31 @@
+{
+  "name": "simplicity-html-theme",
+  "version": "1.0.0",
+  "description": "Simple blog template built using tailwindcss utlity-first framework",
+  "main": "index.js",
+  "scripts": {
+    "tw": "npx tailwindcss -i ./dev/css/tailwind.css -o ./build/css/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axios-io/simplicity-html-theme.git"
+  },
+  "keywords": [
+    "blog",
+    "html",
+    "template",
+    "tailwindcss"
+  ],
+  "author": "Axios.io team",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Axios-io/simplicity-html-theme/issues"
+  },
+  "homepage": "https://github.com/Axios-io/simplicity-html-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.15"
+  }
+}
