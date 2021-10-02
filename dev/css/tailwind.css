@@ -15,7 +15,7 @@ footer {
 
 /* Custom elements */
 nav ul li {
-	@apply px-6 py-2 hover:text-gray-900 transition-all duration-150;
+	@apply px-6 py-2 hover:text-gray-900 hover:underline transition-all duration-150;
 }
 #controls span {
 	@apply rounded-full bg-green-500 shadow-md text-white p-2 cursor-pointer hover:shadow-xl;
